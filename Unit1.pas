@@ -4,10 +4,11 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs;
+  Dialogs, StdCtrls;
 
 type
   TForm1 = class(TForm)
+    btn1: TButton;
   private
     { Private declarations }
   public
@@ -22,4 +23,3 @@ implementation
 {$R *.dfm}
 
 end.
- 
